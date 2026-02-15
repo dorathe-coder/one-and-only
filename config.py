@@ -11,13 +11,12 @@ class Config:
     """Bot configuration"""
     
     # Telegram API Credentials
-# Telegram API Credentials
-API_ID: int = int(os.environ.get("API_ID", "0"))
-API_HASH: str = os.environ.get("API_HASH", "")
-BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "")
+    API_ID: int = int(os.environ.get("API_ID", "0"))
+    API_HASH: str = os.environ.get("API_HASH", "")
+    BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "")
     
     # Owner Configuration
-    OWNER_ID: int = int(os.environ.get("OWNER_ID", "0"))  # Set your Telegram User ID
+    OWNER_ID: int = int(os.environ.get("OWNER_ID", "0"))
     
     # Authorized Users (comma-separated user IDs)
     AUTH_USERS: List[int] = [int(x) for x in os.environ.get("AUTH_USERS", "").split(",") if x.strip()]
