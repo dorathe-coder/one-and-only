@@ -13,7 +13,7 @@ from datetime import datetime
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import FloodWait
-from helpers import download_video, extract_links_from_txt, extract_links_from_pdf, get_video_info, cleanup_downloads
+from helpers import download_video, extract_links_from_txt, extract_links_from_pdf, cleanup_downloads
 from config import Config
 from database import Database
 
