@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.session
+*.session-journal
+
+# Environment
+.env
+venv/
+ENV/
+
+# Downloads
+downloads/
+*.mp4
+*.mkv
+*.ts
+
+# Database
+users_db.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
