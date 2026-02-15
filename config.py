@@ -11,9 +11,10 @@ class Config:
     """Bot configuration"""
     
     # Telegram API Credentials
-    API_ID: int = int(os.environ.get("API_ID", "31708653"))
-    API_HASH: str = os.environ.get("API_HASH", "618773cba18e732111276d01571a928f")
-    BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "8270366317:AAE6c2dperIp-MyZ9urr_AsagZro9SNA3lw")
+# Telegram API Credentials
+API_ID: int = int(os.environ.get("API_ID", "0"))
+API_HASH: str = os.environ.get("API_HASH", "")
+BOT_TOKEN: str = os.environ.get("BOT_TOKEN", "")
     
     # Owner Configuration
     OWNER_ID: int = int(os.environ.get("OWNER_ID", "0"))  # Set your Telegram User ID
